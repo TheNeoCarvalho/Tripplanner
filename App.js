@@ -10,11 +10,9 @@ import {
 export default class App extends Component {
   render() {
     return (
-
-        <View style={styles.container}>
-          <Text style={styles.welcome}>React Native!</Text>
-        </View>
-
+      <ImageBackground source={"../assets/bg.jpg"}>
+        <Text style={styles.welcome}>React Native</Text>
+      </ImageBackground>
     );
   }
 }
